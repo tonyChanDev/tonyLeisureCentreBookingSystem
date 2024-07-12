@@ -2,10 +2,10 @@
 <p>It is a service for the public to sign up a membership for a fake leisure centre, Tony Leisure Centre. Also, the member can login the system and register the time slot for the facilities. The admin can remove the time slot and the system will notificate the members when they registered the removed time slot.</p>
 
 <h2>Public APIs</h2>
-The public APIs do not need the authorization. 
-POST: baseUrl/public/auth/register: For the public to sign-up the membership
-POST: baseUrl/public/auth/authenticate: For member and abmin to login the system
-GET: baseUrl/public/section/2024-06-19: For public to fetch the time-slot detail.
+<p>The public APIs do not need the authorization. </p>
+<p>baseUrl/public/auth/register(POST): For the public to sign-up the membership</p>
+<p>baseUrl/public/auth/authenticate(POST): For member and abmin to login the system</p>
+<p>baseUrl/public/section/2024-06-19(GET): For public to fetch the time-slot detail.</p>
 
 <h3>Membership Sign-up</h3>
 <h5>API:baseUrl/public/auth/register</h5>
