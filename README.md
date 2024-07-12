@@ -45,14 +45,14 @@
 ![image](https://github.com/user-attachments/assets/1ad0af1f-b891-4c97-a6c3-055a2c04269b)
 
 
-<p>If the admin did not create the sections on the date serched, an error meassage will be response.</p> 
+<p>If the admin did not create the sections on the date searched, an error meassage will be response.</p> 
 
 ![getSectionWithoutOnThatDate](https://github.com/user-attachments/assets/69e78d59-547f-4359-918b-ac7c18abd7c8)
 
 <h2>Admin and Member APIs</h2>
-<p>The reponsibility of admin is to create the sections to book and cancel it if necessary. After cancelling the sections, a notification will be created automatically to notice the member who book the cancelled sections. </p>
-<p>On the other hand, member can access the member APIs to register the sections and get the notification.</p>
-<p>Only the user with ADMIN role can access Admin APIs. </p>
+<p>The reponsibility of admin is creating the sections to book and cancelling them if necessary. After cancelling the sections, a notification will be created automatically to notice the member who booked the cancelled sections. </p>
+<p>On the other hand, user with MEMBER role can access the member APIs to register the sections and get the notifications.</p>
+<p>The public is not allow to access the admin and member APIs. Only the user with ADMIN role can access Admin APIs. </p>
 
 ![image](https://github.com/user-attachments/assets/73a2f405-34a8-4aa7-a9f8-a04bc3bf2825)
 
@@ -70,7 +70,7 @@
 ![image](https://github.com/user-attachments/assets/eec83c45-b511-452a-9796-3abb1732098f)
 
 
-<p>If the sections has been created, a error massage will be responsed.</p>
+<p>If the sections had been created before, a error massage will be responsed.</p>
 
 ![image](https://github.com/user-attachments/assets/2c8e9a03-b5ea-4eb2-b991-a598f3d3355a)
 
@@ -85,7 +85,7 @@
 
 ![image](https://github.com/user-attachments/assets/618544a8-b4cb-4c09-a42e-82b9d87234ce)
 
-<p>Validation: A error message will be sent. If the section register agein.</p>
+<p>Validation: A error message will be sent. If the section register again.</p>
 
 ![image](https://github.com/user-attachments/assets/8a186740-36f7-4679-a467-b2f19b56f564)
 
@@ -96,7 +96,7 @@
 <h3>API for Member to get their register section</h3>
 <h5>API:baseUrl/member/section</h5>
 <h5>Method: GET</h5>
-<p>Get the sections by the info of token. </p>
+<p>Get the sections by the information provided by the token. </p>
 
 ![image](https://github.com/user-attachments/assets/0de6b2bc-5ba5-49e4-8379-db8530ce1fe8)
 
@@ -118,7 +118,7 @@
 <h5>API:baseUrl/member/notification</h5>
 <h5>Method: GET</h5>
 
-<p>The notifications are also gotten by the info of token.</p>
+<p>The notifications are also gotten by the information provided by token.</p>
 
 ![image](https://github.com/user-attachments/assets/93d968a7-505f-4962-8b87-534ddfa029fb)
 
